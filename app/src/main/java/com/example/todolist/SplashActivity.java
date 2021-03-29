@@ -1,9 +1,9 @@
 package com.example.todolist;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -18,13 +18,13 @@ public class SplashActivity extends AppCompatActivity {
 
             public void run(){
                 try {
-                    sleep(4000);
+                    sleep(9000);
 
                 }catch (Exception e){
                     e.printStackTrace();
                 }finally {
 
-                    Intent intent = new Intent(SplashActivity.this,SignUp.class);
+                    Intent intent = new Intent(SplashActivity.this,Login.class);
                     startActivity(intent);
                 }
             }

@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TodoList">
         <activity android:name=".Login"></activity>
-        <activity android:name=".SignUp" />
         <activity android:name=".MainActivity" />
         <activity android:name=".SplashActivity">
             <intent-filter>
