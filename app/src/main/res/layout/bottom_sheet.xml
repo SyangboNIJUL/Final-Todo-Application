@@ -114,12 +114,11 @@
         app:layout_constraintVertical_bias="0.16000003" />
 
 
-
     <androidx.constraintlayout.widget.Group
         android:id="@+id/calendar_group"
         android:layout_width="280dp"
         android:layout_height="0dp"
-        android:visibility="visible"
+        android:visibility="gone"
         app:constraint_referenced_ids="calendar_view,next_week_chip,tomorrow_chip,today_chip,textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

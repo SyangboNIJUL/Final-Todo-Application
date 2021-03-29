@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.todolist.R;
 import com.example.todolist.model.Task;
+import com.example.todolist.utils.Utils;
 import com.google.android.material.chip.Chip;
 
 import java.util.List;
@@ -35,7 +36,9 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         Task task = taskList.get(position);
 
-
+        //formatting the date using Utils class
+        String formatted = Utils.formatDate(task.getDueDate());
+        holder.todayChip.setText(formatted);
         holder.task.setText(task.getTask());
 
     }

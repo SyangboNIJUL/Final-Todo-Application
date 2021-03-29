@@ -1,3 +1,3 @@
-RecyclerView has been added
-###To display data from the room database
-![](recyclerView.gif)
+Fragment has been added
+###Bottomsheet Fragment
+![](fragment.gif)
