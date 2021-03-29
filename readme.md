@@ -1,2 +1,2 @@
-SPLASH SCREEN HAS BEEN ADDED
-![](splashscreen.gif)
+Login and register HAS BEEN ADDED
+![](form.gif)
