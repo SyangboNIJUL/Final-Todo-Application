@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,7 +16,6 @@ public class Login extends AppCompatActivity {
     private EditText txtEmail;
     private EditText txtPassword;
     private Button btnLogin;
-
     AlertDialog.Builder mAlterDialog;
 
 
@@ -49,6 +49,7 @@ public class Login extends AppCompatActivity {
                         editor.commit();
                         Intent intent = new Intent(Login.this, MainActivity.class);
                         startActivity(intent);
+                        Toast.makeText(getApplicationContext(), "You have been logged in", Toast.LENGTH_SHORT).show();
                         finish();
                     } else {
                         txtEmail.setError("Invalid username or password");
