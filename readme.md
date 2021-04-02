@@ -4,5 +4,6 @@ This is the simple todo application which contains splash screen a login form fo
 *to update the task eg:homework has been complete<br>
 *delete the task<br>
 
-And it also contains a logout functionality which allows user to exits from the app .<br>
+And it also contains a logout functionality which allows user to exits from the app .The below gif demonstrate the workflow of the application<br>
+T
 ![](final1.gif)
